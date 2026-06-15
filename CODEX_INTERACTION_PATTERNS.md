@@ -1,8 +1,8 @@
-# Codex Interaction Patterns: BAML GTM Agentic OS Thread
+# Codex Interaction Patterns: GTM Agentic OS Thread
 
 Date captured: 2026-05-13
 
-This document captures the collaboration pattern between the user and Codex during the BAML GTM Agentic OS build. It is not a product spec. It is a record of how the work moved from vague strategic intent to an implemented, pushed, deployable prototype.
+This document captures the collaboration pattern between the user and Codex during the GTM Agentic OS build. It is not a product spec. It is a record of how the work moved from vague strategic intent to an implemented, pushed, deployable prototype.
 
 ## 1. Collaboration Arc
 
@@ -202,7 +202,7 @@ The comments were direct:
 remove
 improve the writing here
 powered by OpenClaw Gateway
-BAML GTM Agentic OS
+GTM Agentic OS
 ```
 
 This helped Codex remove weak explanatory copy and make the UI more focused.
@@ -214,7 +214,7 @@ Examples of user review choices:
 - Remove "detect / approve / generate".
 - Remove "human review before publishing".
 - Remove "Skills" and "Scout Archive" pills.
-- Rename heading to `BAML GTM Agentic OS`.
+- Rename heading to `GTM Agentic OS`.
 - Rename badge to `powered by OpenClaw Gateway`.
 - Remove `APIs later, curated inputs now`.
 
@@ -452,13 +452,13 @@ Approximate sequence:
 6. User asked for an intuitive flow diagram with OpenClaw Gateway.
 7. User introduced human approval before agent execution and feedback after publishing.
 8. User clarified demo mode: no scraping, use test cases, show input surfaces.
-9. Codex implemented BAML GTM Agentic OS.
+9. Codex implemented GTM Agentic OS.
 10. User reviewed UI with browser comments.
 11. Codex removed weak copy and tightened UI.
 12. User asked about free hosting.
 13. Codex added hosted demo mode.
 14. User asked to push to GitHub.
-15. Codex initialized a scoped repo and pushed to `0xtigerclaw/BAML_GTM_AGENTIC_OS`.
+15. Codex initialized a scoped repo and pushed to `0xtigerclaw/gtm-agentic-os`.
 16. User asked for README diagrams and harness details.
 17. Codex added high-level architecture, detailed gateway diagram, swimlane diagram, and agent docs.
 18. User hit Vercel build failure.
