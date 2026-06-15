@@ -15,8 +15,8 @@ const geistMono = Geist_Mono({
 import ConvexClientProvider from "./ConvexClientProvider";
 
 export const metadata: Metadata = {
-  title: "BAML GTM OS",
-  description: "Agentic GTM Opportunity Radar for BAML",
+  title: "GTM Agentic OS",
+  description: "Human-gated multi-agent GTM workflow for technical opportunity response packages",
 };
 
 export default function RootLayout({

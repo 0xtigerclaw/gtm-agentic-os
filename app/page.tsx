@@ -29,7 +29,7 @@ export default function Home() {
             <Radar size={14} />
             powered by OpenClaw Gateway
           </div>
-          <h1 className="text-3xl font-semibold tracking-tight text-slate-950 md:text-4xl">BAML GTM Agentic OS</h1>
+          <h1 className="text-3xl font-semibold tracking-tight text-slate-950 md:text-4xl">GTM Agentic OS</h1>
           <div className="mt-4 max-w-4xl rounded-2xl border border-emerald-200 bg-emerald-50 px-4 py-3 text-sm leading-6 text-emerald-950">
             <span className="font-semibold">Objective:</span> {BAML_GTM_OBJECTIVE}
           </div>

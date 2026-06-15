@@ -151,7 +151,7 @@ export default function SetupPage() {
             <div className="rounded-xl border border-gray-100 bg-white p-4">
               <div className="text-xs uppercase tracking-wider text-gray-500 font-bold">One-command run</div>
               <pre className="mt-2 text-xs bg-gray-900 text-gray-100 p-3 rounded-lg overflow-x-auto">
-{`cd /Users/swayam/clawd/mission-control-scaffold
+{`cd /Users/swayam/Developer/BAML_GTM_AGENTIC_OS
 ./start.sh --detach
 ./start.sh status
 ./start.sh logs`}

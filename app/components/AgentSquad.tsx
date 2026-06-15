@@ -51,7 +51,7 @@ export default function AgentSquad() {
             <div className="rounded-[1.25rem] border border-slate-200 bg-white p-4 shadow-sm">
                 <div className="mb-4 flex flex-col gap-3 md:flex-row md:items-center md:justify-between">
                     <div>
-                        <h3 className="text-sm font-semibold text-slate-950">BAML GTM Agent Runtime</h3>
+                        <h3 className="text-sm font-semibold text-slate-950">GTM Agent Runtime</h3>
                         <p className="mt-1 text-xs leading-5 text-slate-500">
                             Each agent has a dedicated skill file, access contract, output schema, and evaluation rubric.
                         </p>

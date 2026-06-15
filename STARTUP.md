@@ -1,10 +1,10 @@
-# Mission Control Startup Protocol
+# GTM Agentic OS Startup Protocol
 
-This document defines the standard operating procedure for launching the Mission Control environment.
+This document defines the standard operating procedure for launching the GTM Agentic OS environment.
 
 ## One-Command Launch (Recommended)
 
-To start all systems (Frontend, Backend, AI Brain) simultaneously, run:
+To start all systems (frontend, Convex backend, and OpenClaw Gateway) simultaneously, run:
 
 ```bash
 ./start.sh --detach
@@ -36,10 +36,10 @@ To check status or view logs:
 
 The `start.sh` script (or `npm run dev:all`) launches three critical processes in parallel:
 
-1.  **Frontend (Next.js)**: Runs on [http://localhost:3000](http://localhost:3000). Visual interface for the dashboard.
+1.  **Frontend (Next.js)**: Runs on [http://localhost:3000](http://localhost:3000). Visual interface for the GTM mission dashboard.
 2.  **Backend (Convex)**: Runs the real-time database and cloud functions.
     -   Dashboard: `npx convex dashboard` (or view logs in terminal)
-3.  **Gateway (AI Brain)**: The `gateway/index.ts` Node.js process.
+3.  **Gateway (OpenClaw Runtime)**: The `gateway/index.ts` Node.js process.
     -   This is the "Loop" that assigns tasks, drives agents, and executes tools (like Clawdbot).
     -   **Note**: "Clawdbot" is the CLI tool used *by* the Gateway. You do NOT need to start it separately.
     -   **CRITICAL**: If this is not running, agents will stay "Sleeping" and tasks will remain "Assigned" forever.
